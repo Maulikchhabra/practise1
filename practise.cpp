@@ -1,6 +1,7 @@
+//comments added//
 #include<iostream>
 using namespace std;
-class sample
+class sample //class //
 {
 	int a,b;
 	public:
@@ -9,9 +10,9 @@ class sample
 			(*this).a=a;//this pointer// 
 			(*this).b=b;
 		}
-		sample(sample &old)//copy constructor//
+		sample(sample &old)//copy constructor syntax//
 		{
-			a=old.a;
+			a=old.a;//copying values of old object//
 			b=old.b;
 		}
 		void print()//print function declaration//
